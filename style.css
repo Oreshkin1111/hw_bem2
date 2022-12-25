@@ -100,7 +100,7 @@ body {
     width: 1140px;
 }
 
-.products__title {
+.products__title h2 {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -207,7 +207,7 @@ body {
 
     .banner__img {
         width: 386px;
-        height: 368px;        
+        height: 368px;
     }
 
     .banner__title {
@@ -250,70 +250,85 @@ body {
         gap: 16px;
         margin-top: 74px;
     }
-    .product__cards_item{
+
+    .product__cards_item {
         width: 360px
     }
-    .footer-button{
+
+    .footer-button {
         margin-top: 33px;
         margin-bottom: 71px;
     }
 }
 
-@media (min-width: 375px) and (max-width: 767px){
-    .navigation__list{
+@media (min-width: 375px) and (max-width: 767px) {
+    .navigation__list {
         width: 375px;
         height: 74px;
         gap: 200px;
     }
-    .navigation__list_img-personal{
+
+    .navigation__list_img-personal {
         display: none;
     }
-    .navigation__list_img-basket{
+
+    .navigation__list_img-basket {
         display: none;
     }
-    .banner__wrapper{
+
+    .banner__wrapper {
         width: 375px;
         height: 363px;
         position: relative;
     }
-    .banner__img{
+
+    .banner__img {
         display: none;
     }
-    .banner__title{
+
+    .banner__title {
         width: 263px;
-        height: 66px; 
+        height: 66px;
         position: absolute;
-        left: 56px;      
+        left: 56px;
     }
-    .container{
+
+    .container {
         width: 343px;
     }
-    .product-group{
+
+    .product-group {
         display: flex;
         flex-direction: column;
         gap: 32px;
     }
-    .product-group__card{
+
+    .product-group__card {
         width: 343px;
         height: 247px;
     }
-    .product-group__card-assesories{
+
+    .product-group__card-assesories {
         height: 111px;
     }
-    .products__title{
+
+    .products__title {
         margin-top: 95px;
     }
-    .products__cards{
+
+    .products__cards {
         display: flex;
         flex-direction: column;
         gap: 17px;
         align-items: center;
         margin-top: 65px;
     }
-    .products__cards_text{
+
+    .products__cards_text {
         margin-left: 16px;
     }
-    .footer-button{
+
+    .footer-button {
         margin-top: 41px;
         margin-bottom: 85px;
     }
