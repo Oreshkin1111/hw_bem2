@@ -265,7 +265,6 @@ body {
   line-height: 24px;
   text-align: center;
   color: #222224;
-  
 }
 .subscribe__article_author {
   margin-top: 97px;
@@ -299,7 +298,7 @@ body {
   text-align: center;
   color: #222224;
   font-weight: 700;
-  
+
   width: 551px;
 }
 .subscribe__input {
@@ -335,6 +334,29 @@ body {
   line-height: 17px;
   text-align: center;
   color: #ffffff;
+}
+
+.footer__wrapper {
+  background-color: #222224;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 79px;
+}
+.footer__copyright {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+
+.footer__link_img {
+  width: 32px;
+  height: 32px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
