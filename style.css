@@ -313,7 +313,7 @@ body {
   background-color: #ffffff;
 }
 
-.product__button_btn:hover{
+.product__button_btn:hover {
   background-color: #f26376;
   color: #ffffff;
 }
@@ -480,17 +480,16 @@ body {
   line-height: 19px;
   color: #fbfbfb;
 }
-svg{
+svg {
   fill: #ffffff;
 }
-.footer__link_img-svg{
+.footer__link_img-svg {
   fill: #000000;
 }
-.footer__list_link:hover svg{
+.footer__list_link:hover svg {
   fill: #f26376;
 }
-.footer__list_link:hover 
-.footer__link_img-svg{
+.footer__list_link:hover .footer__link_img-svg {
   fill: #ffffff;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -498,6 +497,9 @@ svg{
     gap: 424px;
     width: 768px;
     height: 74px;
+  }
+  .navigation__dropdown_content{
+    left: 0;
   }
 
   .banner__wrapper {
@@ -568,6 +570,9 @@ svg{
     gap: 48px;
     align-items: center;
   }
+  .subscribe__wrapper {
+    background-image: url(./img/subscribe__bg_tablet.png);
+  }
   .subscribe__content {
     flex-direction: column;
     align-items: center;
@@ -603,6 +608,9 @@ svg{
 
   .navigation__list_img-basket {
     display: none;
+  }
+  .navigation__dropdown_content{
+    left: -185px;
   }
 
   .banner__wrapper {
@@ -668,6 +676,10 @@ svg{
     gap: 47px;
     align-items: center;
   }
+  .subscribe__wrapper {
+    background-image: url(./img/subscribe__bg_tablet.png);
+  }
+
   .subscribe__content {
     flex-direction: column;
     padding-top: 64px;
