@@ -141,6 +141,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: 1fr 1fr;
   gap: 30px;
+  margin-bottom: 15px;
 }
 
 .visually-hidden {
@@ -184,7 +185,7 @@ body {
   line-height: 36px;
   color: #222222;
   text-align: center;
-  margin-top: 96px;
+  margin: 0;
 }
 
 .products__text {
@@ -231,7 +232,7 @@ body {
 }
 
 .products__cards_btn {
-  
+
   display: none;
   position: absolute;
   top: 188px;
@@ -285,7 +286,7 @@ body {
   font-size: 13px;
   line-height: 16px;
   color: #000000;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 13px;
   margin-left: 18px;
 }
@@ -298,7 +299,7 @@ body {
   line-height: 17px;
   color: #5d5d5d;
   width: 315px;
-  margin-bottom: 18px;
+  margin-bottom: 0;
   margin-left: 18px;
 }
 
@@ -318,8 +319,8 @@ body {
 .product__button {
   display: flex;
   justify-content: center;
-  margin-top: 49px;
-  margin-bottom: 60px;
+  margin-top: 75px;
+  margin-bottom: 100px;
 }
 
 .product__button_btn {
@@ -343,20 +344,24 @@ body {
 
 .advantages__wrapper {
   background: #222224;
+  width: 100%;
+  height: 100%;
 }
 
 .advantages__list {
   display: flex;
   column-gap: 30px;
   align-items: center;
-  padding-top: 103px;
-  padding-bottom: 104px;
+  
+  
 }
 
 .advantages__item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 103px;
+  margin-bottom: 104px;
 }
 
 .advantages__item_img-dilivery {
@@ -405,6 +410,7 @@ body {
   display: flex;
   align-content: center;
   justify-content: space-between;
+  
 }
 
 .subscribe__article {
@@ -418,11 +424,13 @@ body {
 }
 
 .subscribe__article_author {
-  margin-top: 97px;
-  margin-bottom: 30px;
+  margin-top: 105px;
+  margin-right: 25px;
+  margin-bottom: 18px;
 }
 
 .subscribe__artisle_quote {
+  margin-top: 5;
   margin-bottom: 126px;
   width: 360px;
   height: 99px;
@@ -439,11 +447,12 @@ body {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 40px;
   text-align: center;
   color: #222224;
   width: 551px;
+  margin-top: 0;
 }
 
 .subscribe__form_title {
@@ -453,14 +462,13 @@ body {
   text-align: center;
   color: #222224;
   font-weight: 700;
-
-  width: 551px;
+  margin-bottom: 0;
 }
 
 .subscribe__input {
   display: flex;
   grid-template-columns: 256px 100px;
-  margin-top: 32px;
+  margin-top: 10px;
 }
 
 .subscribe__input_fild {
@@ -500,7 +508,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 32px 23px 32px;
+  padding: 24px 0 23px 32px;
 }
 
 .footer__copyright {
