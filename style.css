@@ -197,6 +197,21 @@ body {
   position: relative;
 }
 
+.products-cards-btn-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.products__cards_btn-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
 .products__cards_btn {
   display: none;
   position: absolute;
@@ -238,20 +253,6 @@ body {
   right: 0;
   bottom: 0;
   background: rgba(58, 56, 56, 0.86);
-}
-.products-cards-btn-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 11px;
-}
-.products__cards_btn-text {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
 }
 
 .products__cards_title {
@@ -310,6 +311,11 @@ body {
   color: #f26376;
   text-align: center;
   background-color: #ffffff;
+}
+
+.product__button_btn:hover{
+  background-color: #f26376;
+  color: #ffffff;
 }
 
 .advantages__wrapper {
@@ -474,12 +480,19 @@ body {
   line-height: 19px;
   color: #fbfbfb;
 }
-
-.footer__link_img {
-  width: 32px;
-  height: 32px;
+svg{
+  fill: #ffffff;
 }
-
+.footer__link_img-svg{
+  fill: #000000;
+}
+.footer__list_link:hover svg{
+  fill: #f26376;
+}
+.footer__list_link:hover 
+.footer__link_img-svg{
+  fill: #ffffff;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .navigation__list {
     gap: 424px;
