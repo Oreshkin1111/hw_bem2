@@ -132,8 +132,10 @@ body {
   height: 93px;
   width: 405px;
   padding-left: 16px;
+  margin-bottom: 75px;
+  margin-left: 60px;
   align-items: center;
-  margin-right: 331px;
+  padding-right: 0px;
 }
 
 .product-group {
