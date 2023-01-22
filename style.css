@@ -222,6 +222,9 @@ body {
   align-items: center;
   justify-content: center;
   gap: 11px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+
 }
 
 .products__cards_btn-text {
@@ -234,7 +237,8 @@ body {
 }
 
 .products__cards_btn {
-
+  width: 139px;
+  height: 44px;
   display: none;
   position: absolute;
   top: 188px;
@@ -354,8 +358,8 @@ body {
   display: flex;
   column-gap: 30px;
   align-items: center;
-  
-  
+
+
 }
 
 .advantages__item {
@@ -412,7 +416,7 @@ body {
   display: flex;
   align-content: center;
   justify-content: space-between;
-  
+
 }
 
 .subscribe__article {
